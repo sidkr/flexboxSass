@@ -1,0 +1,20 @@
+{
+  "name": "flexboxsass",
+  "version": "1.0.0",
+  "description": "Full featured flexbox grid in 40 lines of SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/flex.sass   css/flex.css",
+    "dev": "lite-server"
+  },
+  "author": "Siddhartha Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.7.2",
+    "scss-compile": "^0.1.7"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
